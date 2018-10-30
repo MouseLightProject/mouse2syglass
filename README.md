@@ -1,5 +1,7 @@
 # mouse2syglass
-Converts mouselight octree format to syglass tif. python script and python path is hard coded in https://github.com/erhanbas/mouse2syglass/blob/e93734fe55e6104465d8f6faf152086c5809516e/syglassrun.m#L30
+Converts mouselight octree format to syglass tif. 
+
+!! python script and python path is hard coded in https://github.com/erhanbas/mouse2syglass/blob/e93734fe55e6104465d8f6faf152086c5809516e/syglassrun.m#L30
 
 i.e.:  
 pythonpath = '/groups/mousebrainmicro/home/base/anaconda3/envs/syglass/bin/python';  
