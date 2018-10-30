@@ -1,0 +1,10 @@
+/nrs/mouselight/SAMPLES/2018-07-02-raw_new/1/default.0.tif
+/nrs/mouselight/SAMPLES/2018-07-02-raw_new/2/default.0.tif
+/nrs/mouselight/SAMPLES/2018-07-02-raw_new/3/default.0.tif
+/nrs/mouselight/SAMPLES/2018-07-02-raw_new/4/default.0.tif
+/nrs/mouselight/SAMPLES/2018-07-02-raw_new/5/default.0.tif
+/nrs/mouselight/SAMPLES/2018-07-02-raw_new/6/default.0.tif
+/nrs/mouselight/SAMPLES/2018-07-02-raw_new/7/default.0.tif
+/nrs/mouselight/SAMPLES/2018-07-02-raw_new/8/default.0.tif
+/nrs/mouselight/SAMPLES/2018-07-02-raw_new/sy2/default.0.tif
+/nrs/mouselight/SAMPLES/2018-07-02-raw_new/syglass-ch0/default.0.tif

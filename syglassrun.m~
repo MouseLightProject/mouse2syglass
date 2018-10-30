@@ -23,8 +23,13 @@ else
         rerun = 1;
     end
 end
+unix(sprintf('rm -rdf ./tmpfiles'))
 
-if rerun;unix(sprintf('rm -rdf ./tmpfiles'));mkdir('./tmpfiles');end
+
+dos_cmd = sprintf( 'rmdir -f "%s"', './tmpfiles' )
+[ st, msg ] = system( dos_cmd )
+
+if rerun;rmdir('./tmpfiles','s');mkdir('./tmpfiles');end
 if ~exist('./tmpfiles','dir'); mkdir('./tmpfiles',sample);end
 
 pythonpath = '/groups/mousebrainmicro/home/base/anaconda3/envs/syglass/bin/python';
