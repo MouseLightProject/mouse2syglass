@@ -13,7 +13,7 @@ function syglassrun(samplepath,outfolder,rerun)
 %     syglassrun(samplepath,outfolder,rerun)
 
 if nargin<1
-    sample = '2018-07-02-raw_new';
+    sample = '2018-08-15';
     samplepath = fullfile('/nrs/mouselight/SAMPLES/',sample);
     outfolder = fullfile(samplepath,'syglass-ch0');
     rerun = 0;
@@ -25,7 +25,7 @@ else
 end
 
 if rerun;unix(sprintf('rm -rdf ./tmpfiles'));mkdir('./tmpfiles');end
-if ~exist('./tmpfiles','dir'); mkdir('./tmpfiles',sample);end
+if ~exist(fullfile('./tmpfiles',sample),'dir'); mkdir('./tmpfiles',sample);end
 
 pythonpath = '/groups/mousebrainmicro/home/base/anaconda3/envs/syglass/bin/python';
 scriptpath = '/groups/mousebrainmicro/mousebrainmicro/Software/syGlassConverter/singleThreadedCacher.py';
