@@ -1,3 +1,5 @@
 *.m~
 *.sh
-/tmpfiles
+tmpfiles
+anaconda3
+
